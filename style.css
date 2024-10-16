@@ -239,3 +239,42 @@ section p {
 }
 
 /* Next target section style */
+
+.next-target p {
+    margin-bottom: 50px;
+}
+
+.next-target .container .boxs .item {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.next-target .container .boxs .item:last-child {
+    margin-bottom: 0;
+}
+
+.next-target .container .boxs .item .details {
+    margin-left: 20px;
+}
+
+.next-target .container .boxs .item .details h6 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.next-target .container .boxs .item .details p {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.next-target .container .boxs .item .details a {
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
