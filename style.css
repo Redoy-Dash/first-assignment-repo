@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -76,7 +80,7 @@ section p {
 }
 
 .banner-section .banner-content h5 {
-    font-size: 48px;
+    font-size: 32px;
     padding-bottom: 20px;
 }
 
