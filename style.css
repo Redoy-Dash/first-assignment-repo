@@ -1,0 +1,241 @@
+/* Universal & Common Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 90px;
+}
+
+section h2 {
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+section p {
+    text-align: center;
+}
+
+/* a {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+} */
+
+/* header style */
+
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar .container .nav-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .container .nav-content h3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+.navbar .container .nav-content button a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid blue;
+    background-color: white;
+    display: inline-block;
+}
+
+/* Main Style */
+
+/* Banner */
+
+.banner-section {
+    background-image: url(assets/Hero-bg.png);
+    width: 100%;
+    height: 500px;
+    padding: 40px 0;
+
+}
+
+.banner-section .banner-content {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-section .banner-content h5 {
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.banner-section .banner-content p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.banner-section .banner-content button a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+/* Web Section */
+
+.web-section {
+    padding: 40px 0;
+}
+
+.web-section .container {
+    margin-top: 50px;
+    background-color: rgb(250, 250, 251);
+    padding: 30px 0;
+    border-radius: 15px;
+}
+
+.web-section .container .web-content {
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.web-section .container .web-content .item {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(45deg, #FBFBFC, #FFFFFF);
+    ;
+    margin: 40px 0;
+
+    border-radius: 15px;
+}
+
+.web-section .container .web-content .item-2 {
+    background: linear-gradient(45deg, #FFFFFF, #FBFBFC);
+}
+
+.web-section .container .web-content .item-2 .right p {
+    text-align: left;
+}
+
+.web-section .container .web-content .item .left {
+    width: 50%;
+    text-align: left;
+}
+
+.web-section .container .web-content .item .left h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+.web-section .container .web-content .item .left p {
+    text-align: center;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.web-section .container .web-content .item .left a {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+
+.web-section .container .web-content .item .right h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+.web-section .container .web-content .item .right p {
+    text-align: center;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.web-section .container .web-content .item .right a {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+/* My Inspiration Style */
+
+.inspiration p {
+    margin-bottom: 60px;
+}
+
+.inspiration .container {
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+.inspiration .container .content {
+    padding: 15px;
+}
+
+.inspiration .container .content video {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/* My Current Target section Style */
+
+.target-section p {
+    margin-bottom: 50px;
+}
+
+.target-section .container .box .item {
+    width: 25%;
+    height: 200px;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+}
+
+.target-section .container .box .item img {
+    padding-bottom: 10px;
+}
+
+.target-section .container .box .item h6 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.target-section .container .box .item p {
+    text-align: left;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.target-section .container .box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.target-section .container .box .item a {
+    font-size: 15px;
+    color: black;
+}
+
+/* Next target section style */
